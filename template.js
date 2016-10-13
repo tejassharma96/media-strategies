@@ -1,69 +1,67 @@
-module.exports = {
-  getTitle = function() {
+exports.getTitle = function() {
 
-  }
+}
 
-  getArtist = function() {
+exports.getArtist = function() {
 
-  }
+}
 
-  getArtwork = function() {
+exports.getArtwork = function() {
 
-  }
+}
 
-  getPlaying = function() {
+exports.getPlaying = function() {
 
-  }
+}
 
-  play = function() {
+exports.play = function() {
 
-  }
+}
 
-  pause = function() {
+exports.pause = function() {
 
-  }
+}
 
-  next = function() {
+exports.next = function() {
 
-  }
+}
 
-  previous = function() {
+exports.previous = function() {
 
-  }
+}
 
-  getLength = function() {
+exports.getLength = function() {
 
-  }
+}
 
-  getPlayhead = function() {
+exports.getPlayhead = function() {
 
-  }
+}
 
-  seek = function(time) {
+exports.seek = function(time) {
 
-  }
+}
 
-  getFavType = function() {
-    return ''
-  }
+exports.getFavType = function() {
+  return ''
+}
 
-  getFavorite = function() {
+exports.getFavorite = function() {
 
-  }
+}
 
-  favorite = function() {
+exports.favorite = function() {
 
-  }
+}
 
-  getThumbs = function() {
+exports.getThumbs = function() {
 
-  }
+}
 
-  thumbsUp = function() {
+exports.thumbsUp = function() {
 
-  }
+}
 
-  thumbsDown = function() {
+exports.thumbsDown = function() {
 
-  }
 }
