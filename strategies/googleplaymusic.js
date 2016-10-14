@@ -39,32 +39,26 @@ var getPlayhead = function() {
   return timeToMilliseconds(time)
 }
 
-var seek = function(time) {
+var seek = function(ms) {
   var progress = document.querySelector('#material-player-progress')
-  progress.value = time
+  progress.value = ms
   progress.dispatchEvent(new window.UIEvent('change'))
 }
 
 var getThumbs = function() {
-  if(document.querySelector('[title="Undo thumb-up"]') != null)
-    return '2'
-  else if(document.querySelector('[title="Undo thumb-down"]') != null)
-    return '1'
-  else return '0'
+  if (document.querySelector('[title="Undo thumb-up"]') != null)
+    return 2
+  if (document.querySelector('[title="Undo thumb-down"]') != null)
+    return 1
+  return 0
 }
 
 var thumbsUp = function() {
-  var upButton = document.querySelector('[title="Undo thumb-up"]')
-  if(upButton != null)
-    upButton.click()
-  else document.querySelector('[title="Thumb-up"]').click()
+  document.querySelector('[title$="humb-up"]').click()
 }
 
 var thumbsDown = function() {
-  var downButton = document.querySelector('[title="Undo thumb-down"]')
-  if(downButton != null)
-    downButton.click()
-  else document.querySelector('[title="Thumb-down"]').click()
+  document.querySelector('[title$="humb-down"]').click()
 }
 
 module.exports = { getTitle, getArtist, getArtwork, getPlaying, playPause, next, previous, getLength, getPlayhead, seek, getThumbs, thumbsUp, thumbsDown }

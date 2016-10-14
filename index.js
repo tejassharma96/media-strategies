@@ -89,7 +89,7 @@ var mapping = {
 // 'y.qq': 'qqmusic.js'
 // 'music.yandex': 'yandexmusic.js'
 // 'radio.yandex': 'yandexradio.js'
-// 'youtube': 'youtube.js'
+'youtube': 'youtube.js'
 // 'albumkings': 'albumkings.js'
 // 'itunes.apple.com': 'applemusic.js'
 }

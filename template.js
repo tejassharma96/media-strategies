@@ -34,7 +34,7 @@ var getPlayhead = function() {
 
 }
 
-var seek = function(time) {
+var seek = function(ms) {
 
 }
 
