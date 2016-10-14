@@ -67,5 +67,5 @@ var thumbsDown = function() {
   else document.querySelector('[title="Thumb-down"]').click()
 }
 
-module.exports = { getTitle, getArtist, getArtwork, getPlaying, playPause, next, previous, getLength, getPlayhead, seek, getFavType, getFavorite, favorite, getThumbs, thumbsUp, thumbsDown }
+module.exports = { getTitle, getArtist, getArtwork, getPlaying, playPause, next, previous, getLength, getPlayhead, seek, getThumbs, thumbsUp, thumbsDown }
 
