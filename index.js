@@ -1,4 +1,4 @@
-exports.mapping = {
+var mapping = {
 // '163': 'onesixtythree.js'
 // '8tracks': 'eighttracks.js'
 // '22tracks': '22tracks.js'
@@ -94,10 +94,12 @@ exports.mapping = {
 // 'itunes.apple.com': 'applemusic.js'
 }
 
-exports.findStrategy = function(url) {
+var findStrategy = function(url) {
   for (var strategy in mapping) {
     if (url.indexOf(strategy) != -1) {
       return mapping[strategy]
     }
   }
 }
+
+module.exports = { mapping, findStrategy }

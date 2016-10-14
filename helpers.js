@@ -1,4 +1,4 @@
-exports.timeToMilliseconds = function(time) {
+var timeToMilliseconds = function(time) {
   var p = time.split(':')
   var s = 0
   var m = 1
@@ -10,3 +10,5 @@ exports.timeToMilliseconds = function(time) {
 
   return s * 1000
 }
+
+module.exports = { timeToMilliseconds }

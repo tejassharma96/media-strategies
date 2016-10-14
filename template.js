@@ -1,63 +1,65 @@
-exports.getTitle = function() {
+var getTitle = function() {
 
 }
 
-exports.getArtist = function() {
+var getArtist = function() {
 
 }
 
-exports.getArtwork = function() {
+var getArtwork = function() {
 
 }
 
-exports.getPlaying = function() {
+var getPlaying = function() {
 
 }
 
-exports.playPause = function() {
+var playPause = function() {
 
 }
 
-exports.next = function() {
+var next = function() {
 
 }
 
-exports.previous = function() {
+var previous = function() {
 
 }
 
-exports.getLength = function() {
+var getLength = function() {
 
 }
 
-exports.getPlayhead = function() {
+var getPlayhead = function() {
 
 }
 
-exports.seek = function(time) {
+var seek = function(time) {
 
 }
 
-exports.getFavType = function() {
+var getFavType = function() {
   return ''
 }
 
-exports.getFavorite = function() {
+var getFavorite = function() {
 
 }
 
-exports.favorite = function() {
+var favorite = function() {
 
 }
 
-exports.getThumbs = function() {
+var getThumbs = function() {
 
 }
 
-exports.thumbsUp = function() {
+var thumbsUp = function() {
 
 }
 
-exports.thumbsDown = function() {
+var thumbsDown = function() {
 
 }
+
+module.exports = { getTitle, getArtist, getArtwork, getPlaying, playPause, next, previous, getLength, getPlayhead, seek, getFavType, getFavorite, favorite, getThumbs, thumbsUp, thumbsDown }
