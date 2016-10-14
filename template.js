@@ -14,11 +14,7 @@ exports.getPlaying = function() {
 
 }
 
-exports.play = function() {
-
-}
-
-exports.pause = function() {
+exports.playPause = function() {
 
 }
 

@@ -17,11 +17,7 @@ exports.getPlaying = function() {
   return document.querySelector('[data-id=play-pause]').classList.contains('playing')
 }
 
-exports.play = function() {
-  document.querySelector('[data-id=play-pause]').click()
-}
-
-exports.pause = function() {
+exports.playPause = function() {
   document.querySelector('[data-id=play-pause]').click()
 }
 
