@@ -1,5 +1,6 @@
 var mapping = {
   'https://play.google.com/music/': 'googleplaymusic.js',
+  'https://soundcloud.com/': 'soundcloud.js'
   'https://www.youtube.com/watch': 'youtube.js',
 }
 
