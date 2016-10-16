@@ -14,7 +14,7 @@ var getArtwork = function() {
 }
 
 var getPlaying = function() {
-  return document.querySelector('.ytp-play-button').classList.contains('playing-mode')
+  return document.querySelector('.ytp-play-button').classList.contains('playing-mode') || document.querySelector('.ytp-play-button').getAttribute('aria-label') == "Pause"
 }
 
 var playPause = function() {
