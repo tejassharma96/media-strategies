@@ -1,3 +1,5 @@
+var timeToMilliseconds = require('../helpers').timeToMilliseconds
+
 var playerName = 'YouTube'
 
 var getTitle = function() {
@@ -30,7 +32,8 @@ var previous = function() {
 }
 
 var getLength = function() {
-  return document.querySelector('.ytp-time-duration').innerHTML
+  var time = document.querySelector('.ytp-time-duration').innerHTML
+  return timeToMilliseconds(time)
 }
 
 var getPlayhead = function() {

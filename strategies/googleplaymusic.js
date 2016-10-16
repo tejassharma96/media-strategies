@@ -1,4 +1,4 @@
-var timeToMilliseconds = require('../helpers.js').timeToMilliseconds
+var timeToMilliseconds = require('../helpers').timeToMilliseconds
 
 var playerName = 'Google Play Music'
 
@@ -33,7 +33,7 @@ var previous = function() {
 
 var getLength = function() {
   var time = document.querySelector('#time_container_duration').innerHTML
-  return timeToSeconds(time)
+  return timeToMilliseconds(time)
 }
 
 var getPlayhead = function() {
