@@ -1,5 +1,7 @@
 var timeToMilliseconds = require('../helpers.js').timeToMilliseconds
 
+var playerName = 'Google Play Music'
+
 var getTitle = function() {
   return document.querySelector('#currently-playing-title').innerHTML
 }
@@ -61,5 +63,5 @@ var thumbsDown = function() {
   document.querySelector('[title$="humb-down"]').click()
 }
 
-module.exports = { getTitle, getArtist, getArtwork, getPlaying, playPause, next, previous, getLength, getPlayhead, seek, getThumbs, thumbsUp, thumbsDown }
+module.exports = { playerName, getTitle, getArtist, getArtwork, getPlaying, playPause, next, previous, getLength, getPlayhead, seek, getThumbs, thumbsUp, thumbsDown }
 

@@ -1,3 +1,5 @@
+var playerName = 'YouTube'
+
 var getTitle = function() {
   return document.querySelector('.watch-title').innerHTML
 }
@@ -58,4 +60,4 @@ var thumbsDown = function() {
   else down.click()
 }
 
-module.exports = { getTitle, getArtist, getArtwork, getPlaying, playPause, next, previous, getLength, getPlayhead, getThumbs, thumbsUp, thumbsDown }
+module.exports = { playerName, getTitle, getArtist, getArtwork, getPlaying, playPause, next, previous, getLength, getPlayhead, getThumbs, thumbsUp, thumbsDown }
