@@ -40,4 +40,4 @@ var seek = function(ms) {
   document.querySelector('video').currentTime = ms / 1000
 }
 
-module.exports = { playerName, getTitle, getEpisode, getSeason, getPlaying, playPause, next, previous, getLength, getPlayhead, seek }
+module.exports = { playerName, getTitle, getEpisode, getSeason, getPlaying, playPause, next, getLength, getPlayhead, seek }
