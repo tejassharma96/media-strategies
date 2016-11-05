@@ -1,4 +1,5 @@
 var mapping = {
+  'https://twist.moe/a/': 'animetwist.js',
   'https://play.google.com/music/': 'googleplaymusic.js',
   'https://play.pocketcasts.com/': 'pocketcasts.js',
   'https://soundcloud.com/': 'soundcloud.js',
