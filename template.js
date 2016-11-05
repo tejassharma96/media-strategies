@@ -8,6 +8,14 @@ var getArtist = function() {
 
 }
 
+var getEpisode = function() {
+
+}
+
+var getSeason = function() {
+
+}
+
 var getArtwork = function() {
 
 }
@@ -64,4 +72,4 @@ var thumbsDown = function() {
 
 }
 
-module.exports = { playerName, getTitle, getArtist, getArtwork, getPlaying, playPause, next, previous, getLength, getPlayhead, seek, getFavType, getFavorite, favorite, getThumbs, thumbsUp, thumbsDown }
+module.exports = { playerName, getTitle, getArtist, getEpisode, getArtwork, getPlaying, playPause, next, previous, getLength, getPlayhead, seek, getFavType, getFavorite, favorite, getThumbs, thumbsUp, thumbsDown }

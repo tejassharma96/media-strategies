@@ -1,6 +1,6 @@
 {
   "name": "media-strategies",
-  "version": "0.1.12",
+  "version": "0.1.14",
   "description": "Strategies to control and get info from web media players",
   "repository": {
     "type": "git",
