@@ -1,10 +1,10 @@
 var playerName = 'MoeTube'
 
 var getTitle = function() {
-  var h1 = document.querySelector('#episodename > h1')
-  if (h1)
-    return h1.innerHTML
-  else return document.querySelector('#animename > h2').innerHTML.split(' · ')[0]
+  var h2 = document.querySelector('#animename > h2')
+  if (h2)
+    return h2.innerHTML.split(' · ')[0]
+  else return document.querySelector('#episodename > h1').innerHTML
 }
 
 var getEpisode = function() {
