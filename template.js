@@ -72,4 +72,4 @@ var thumbsDown = function() {
 
 }
 
-module.exports = { playerName, getTitle, getArtist, getEpisode, getArtwork, getPlaying, playPause, next, previous, getLength, getPlayhead, seek, getFavType, getFavorite, favorite, getThumbs, thumbsUp, thumbsDown }
+module.exports = { playerName, getTitle, getArtist, getEpisode, getSeason, getArtwork, getPlaying, playPause, next, previous, getLength, getPlayhead, seek, getFavType, getFavorite, favorite, getThumbs, thumbsUp, thumbsDown }
