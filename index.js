@@ -10,7 +10,7 @@ var mapping = {
   'https://soundcloud.com/': 'soundcloud.js',
   'http://www.viewster.com/serie/': 'viewster.js',
   'http://www.viz.com/watch/streaming': 'viz.js',
-  'https://www.youtube.com/watch': 'youtube.js',
+  'https://www.youtube.com/watch': 'youtube.js'
 }
 
 var findStrategy = function(url) {
