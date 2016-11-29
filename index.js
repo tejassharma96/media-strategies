@@ -8,6 +8,7 @@ var mapping = {
   'http://moetube.net/watch/': 'moetube.js',
   'https://play.pocketcasts.com/': 'pocketcasts.js',
   'https://soundcloud.com/': 'soundcloud.js',
+  'http://www.viewster.com/serie/': 'viewster.js',
   'https://www.youtube.com/watch': 'youtube.js',
 }
 
