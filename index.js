@@ -9,6 +9,7 @@ var mapping = {
   'http://kissanime.to/Anime/': 'kissanime.js',
   'http://www.masterani.me/anime/watch': 'masterani.js',
   'http://moetube.net/watch/': 'moetube.js',
+  'https://www.netflix.com/title/': 'netflix.js',
   'https://play.pocketcasts.com/': 'pocketcasts.js',
   'https://soundcloud.com/': 'soundcloud.js',
   'http://www.viewster.com/serie/': 'viewster.js',
