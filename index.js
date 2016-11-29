@@ -5,6 +5,7 @@ var mapping = {
   'http://www.daisuki.net/': 'daisuki.js',
   'http://www.funimation.com/shows/': 'funimation.js',
   'https://play.google.com/music/': 'googleplaymusic.js',
+  'http://www.hulu.com/watch/': 'hulu.js',
   'http://kissanime.to/Anime/': 'kissanime.js',
   'http://www.masterani.me/anime/watch': 'masterani.js',
   'http://moetube.net/watch/': 'moetube.js',
