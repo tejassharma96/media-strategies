@@ -6,6 +6,7 @@ var mapping = {
   'http://www.funimation.com/shows/': 'funimation.js',
   'https://play.google.com/music/': 'googleplaymusic.js',
   'http://kissanime.to/Anime/': 'kissanime.js',
+  'http://www.masterani.me/anime/watch': 'masterani.js',
   'http://moetube.net/watch/': 'moetube.js',
   'https://play.pocketcasts.com/': 'pocketcasts.js',
   'https://soundcloud.com/': 'soundcloud.js',
