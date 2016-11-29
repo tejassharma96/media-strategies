@@ -1,7 +1,7 @@
 var playerName = 'Funimation'
 
 var getTitle = function() {
-  return document.querySelector('.heading > h2').childNodes[0]
+  return document.querySelector('.heading > h2').childNodes[0].textContent
 }
 
 var getEpisode = function() {

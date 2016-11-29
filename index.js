@@ -1,7 +1,7 @@
 var mapping = {
   'https://twist.moe/a/': 'animetwist.js',
   'http://www.crunchyroll.com/': 'crunchyroll.js',
-  'http://www.funimation.com/': 'funimation.js',
+  'http://www.funimation.com/shows/': 'funimation.js',
   'https://play.google.com/music/': 'googleplaymusic.js',
   'http://kissanime.to/Anime/': 'kissanime.js',
   'http://moetube.net/watch/': 'moetube.js',
