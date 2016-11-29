@@ -1,4 +1,5 @@
 var mapping = {
+  'http://animehaven.to/': 'animehaven.js',
   'https://twist.moe/a/': 'animetwist.js',
   'http://www.crunchyroll.com/': 'crunchyroll.js',
   'http://www.daisuki.net/': 'daisuki.js',
