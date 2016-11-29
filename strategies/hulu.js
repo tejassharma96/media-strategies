@@ -1,7 +1,10 @@
 var playerName = 'Hulu'
 
 var getTitle = function() {
-  return document.querySelector('.show-title').innerHTML
+  var title = document.querySelector('.show-title')
+  if (title)
+    return title.innerHTML
+  else return document.querySelector('.episode-title').innerHTML
 }
 
 var getEpisode = function() {

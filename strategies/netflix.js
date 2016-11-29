@@ -5,13 +5,21 @@ var getTitle = function() {
 }
 
 var getEpisode = function() {
-  var ep = document.querySelector('.playable-title').innerHTML
-  return parseInt(ep.substring(ep.indexOf('E') + 1, ep.indexOf(' ')))
+  var ep = document.querySelector('.playable-title')
+  if (ep) {
+    ep = ep.innerHTML
+    return parseInt(ep.substring(ep.indexOf('E') + 1, ep.indexOf(' ')))
+  }
+  else return 1
 }
 
 var getSeason = function() {
-  var ep = document.querySelector('.playable-title').innerHTML
-  return parseInt(ep.substring(ep.indexOf('S') + 1, ep.indexOf(':')))
+  var ep = document.querySelector('.playable-title')
+  if (ep) {
+    ep = ep.innerHTML
+    return parseInt(ep.substring(ep.indexOf('S') + 1, ep.indexOf(':')))
+  }
+  else return 1
 }
 
 var getPlaying = function() {
