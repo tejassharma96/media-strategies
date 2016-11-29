@@ -1,7 +1,7 @@
 var playerName = 'Netflix'
 
 var getTitle = function() {
-  return document.querySelector('name').innerHTML
+  return document.querySelector('.name').innerHTML
 }
 
 var getEpisode = function() {
