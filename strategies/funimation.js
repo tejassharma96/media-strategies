@@ -1,11 +1,11 @@
 var playerName = 'Funimation'
 
 var getTitle = function() {
-  return document.querySelector('.heading > h2').childNodes[0].textContent
+  return document.querySelector('.video-title > a').innerHTML
 }
 
 var getEpisode = function() {
-  var ep = document.querySelector('.chaner-data').innerHTML
+  var ep = document.querySelector('.episode-headline').innerHTML
   return parseInt(ep.split(' ')[1])
 }
 
