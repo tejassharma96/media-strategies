@@ -1,19 +1,24 @@
 var playerName = 'Masterani'
 
 var getTitle = function() {
-  return document.querySelector('.border').innerHTML
+  details = document.querySelector('.details')
+  return details.querySelector('h1').innerHTML
 }
 
 var getEpisode = function() {
-  return parseInt(document.querySelector('.more').innerHTML.split(' ')[1])
+  details = document.querySelector('.details')
+  episode = details.querySelector('h2').innerHTML.split(' ')
+  return parseInt(episode[episode.length - 1])
 }
 
 var next = function() {
-  document.querySelector('.chevron.right').click()
+  actions = document.querySelector('.actions')
+  actions.children[3].click()
 }
 
 var previous = function() {
-  document.querySelector('.chevron.left').click()
+  actions = document.querySelector('.actions')
+  actions.children[1].click()
 }
 
 module.exports = { playerName, getTitle, getEpisode, next, previous }
