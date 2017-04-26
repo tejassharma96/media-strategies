@@ -5,7 +5,7 @@ var getTitle = function() {
 }
 
 var getEpisode = function() {
-  return parseInt(document.getElementById('episode-comment').querySelector('span').innerHTML)
+  return parseInt(document.querySelector('#episode-comment > span').innerHTML)
 
 var next = function() {
   document.getElementsByClassName('next')[0].click()
