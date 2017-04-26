@@ -1,5 +1,5 @@
 var mapping = {
-  'http://9anime.to/watch/': '9anime.js',
+  'https://9anime.to/watch/': '9anime.js',
   'http://animehaven.to/': 'animehaven.js',
   'https://twist.moe/a/': 'animetwist.js',
   'http://www.crunchyroll.com/': 'crunchyroll.js',
@@ -8,7 +8,7 @@ var mapping = {
   'https://play.google.com/music/': 'googleplaymusic.js',
   'http://www.hulu.com/watch/': 'hulu.js',
   'http://kissanime.ru/Anime/': 'kissanime.js',
-  'http://www.masterani.me/anime/watch': 'masterani.js',
+  'https://www.masterani.me/anime/watch': 'masterani.js',
   'http://moetube.net/watch/': 'moetube.js',
   'https://www.netflix.com/title/': 'netflix.js',
   'https://play.pocketcasts.com/': 'pocketcasts.js',
