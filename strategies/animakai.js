@@ -41,12 +41,4 @@ var seek = function(ms) {
   document.querySelector('video').currentTime = ms / 1000
 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 module.exports = { playerName, getTitle, getEpisode, getPlaying, playPause, next, previous, getLength, getPlayhead, seek }
-=======
-module.exports = { playerName, getTitle, getEpisode, getPlaying, playPause, next, previous, getLength, getPlayhead, seek }
->>>>>>> added support for animakai
-=======
-module.exports = { playerName, getTitle, getEpisode, getPlaying, playPause, next, previous, getLength, getPlayhead, seek }
->>>>>>> Handle multiple word titles
