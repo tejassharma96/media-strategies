@@ -6,6 +6,7 @@ var mapping = {
   'https?://www.crunchyroll.com/': 'crunchyroll.js',
   'https?://www.daisuki.net/': 'daisuki.js',
   'https?://www.funimation.com/shows/': 'funimation.js',
+  'https?://ww1.gogoanime.io/': 'gogoanime.js',
   'https?://play.google.com/music/': 'googleplaymusic.js',
   'https?://www.hulu.com/watch/': 'hulu.js',
   'https?://kissanime.ru/Anime/': 'kissanime.js',
