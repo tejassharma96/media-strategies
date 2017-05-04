@@ -13,6 +13,7 @@ var mapping = {
   'https?://www.netflix.com/title/': 'netflix.js',
   'https?://play.pocketcasts.com/': 'pocketcasts.js',
   'https?://soundcloud.com/': 'soundcloud.js',
+  'https?://www.superanimes.com/': 'superanimes.js',
   'https?://www.viewster.com/serie/': 'viewster.js',
   'https?://www.viz.com/watch/streaming': 'viz.js',
   'https?://www.youtube.com/watch': 'youtube.js'
