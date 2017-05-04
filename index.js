@@ -1,5 +1,6 @@
 var mapping = {
   'https?://9anime.to/watch/': '9anime.js',
+  'https?://www.animakai.info/anime/': 'animakai.js',
   'https?://animehaven.to/': 'animehaven.js',
   'https?://twist.moe/a/': 'animetwist.js',
   'https?://www.crunchyroll.com/': 'crunchyroll.js',
