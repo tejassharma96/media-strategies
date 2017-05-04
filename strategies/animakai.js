@@ -1,13 +1,11 @@
 var playerName = 'animakai'
 
 var getTitle = function() {
-  var end = document.title.indexOf('Episode') - 1
-  return return document.title.substr(0, end)
+  return document.title.split(' ').slice(0, -3).join(' ')
 }
 
 var getEpisode = function() {
-  var ep = document.title.indexOf('Episode') + 8
-  return parseInt(document.title.substr(ep))
+  return parseInt(document.title.split(' ').slice(-2, -1)[0])
 }
 
 var getPlaying = function() {
