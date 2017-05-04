@@ -1,7 +1,6 @@
 var playerName = 'animakai'
 
 var getTitle = function() {
-<<<<<<< HEAD
   var end = document.title.indexOf('Episode') - 1
   return return document.title.substr(0, end)
 }
@@ -43,7 +42,11 @@ var seek = function(ms) {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 module.exports = { playerName, getTitle, getEpisode, getPlaying, playPause, next, previous, getLength, getPlayhead, seek }
 =======
 module.exports = { playerName, getTitle, getEpisode, getPlaying, playPause, next, previous, getLength, getPlayhead, seek }
 >>>>>>> added support for animakai
+=======
+module.exports = { playerName, getTitle, getEpisode, getPlaying, playPause, next, previous, getLength, getPlayhead, seek }
+>>>>>>> Handle multiple word titles
