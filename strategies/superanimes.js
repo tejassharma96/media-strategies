@@ -1,4 +1,4 @@
-var playerName = 'superanimes'
+var playerName = 'SuperAnimes'
 
 var getTitle = function() {
   var title = document.querySelector('.boxBarraInfo > h1').innerHTML

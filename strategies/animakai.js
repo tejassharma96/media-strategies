@@ -1,4 +1,4 @@
-var playerName = 'animakai'
+var playerName = 'AnimaKAI'
 
 var getTitle = function() {
   return document.title.split(' ').slice(0, -3).join(' ')

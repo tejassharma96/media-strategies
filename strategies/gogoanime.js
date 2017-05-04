@@ -1,4 +1,4 @@
-var playerName = 'gogoanime'
+var playerName = 'GogoAnime'
 
 var getTitle = function() {
   var title = document.querySelector('.title_name > h2').innerHTML
