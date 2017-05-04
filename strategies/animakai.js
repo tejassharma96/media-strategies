@@ -1,6 +1,7 @@
 var playerName = 'animakai'
 
 var getTitle = function() {
+<<<<<<< HEAD
   var end = document.title.indexOf('Episode') - 1
   return return document.title.substr(0, end)
 }
@@ -41,4 +42,8 @@ var seek = function(ms) {
   document.querySelector('video').currentTime = ms / 1000
 }
 
+<<<<<<< HEAD
 module.exports = { playerName, getTitle, getEpisode, getPlaying, playPause, next, previous, getLength, getPlayhead, seek }
+=======
+module.exports = { playerName, getTitle, getEpisode, getPlaying, playPause, next, previous, getLength, getPlayhead, seek }
+>>>>>>> added support for animakai
