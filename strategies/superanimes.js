@@ -1,11 +1,13 @@
 var playerName = 'superanimes'
 
 var getTitle = function() {
-  return document.querySelector('.boxBarraInfo > h1').innerHTML.split(' ').slice(0, -2).join(' ')
+  var title = document.querySelector('.boxBarraInfo > h1').innerHTML
+  return title.split(' ').slice(0, -2).join(' ')
 }
 
 var getEpisode = function() {
-  return parseInt(document.querySelector('.boxBarraInfo > h1').innerHTML.split(' ').slice(-1)[0])
+  var title = document.querySelector('.boxBarraInfo > h1').innerHTML
+  return parseInt(title.split(' ').slice(-1)[0])
 }
 
 var getPlaying = function() {
