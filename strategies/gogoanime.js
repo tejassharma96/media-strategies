@@ -22,11 +22,11 @@ var playPause = function() {
 }
 
 var next = function() {
-  document.querySelector('.anime_video_body_episodes_r > a')
+  document.querySelector('.anime_video_body_episodes_r > a').click()
 }
 
 var previous = function() {
-  document.querySelector('.anime_video_body_episodes_l > a')
+  document.querySelector('.anime_video_body_episodes_l > a').click()
 }
 
 var getLength = function() {
