@@ -18,6 +18,7 @@ var mapping = {
   'https?://www.superanimes.com/': 'superanimes.js',
   'https?://www.viewster.com/serie/': 'viewster.js',
   'https?://www.viz.com/watch/streaming': 'viz.js',
+  'https?://www.vrv.co/watch': 'vrv.js',
   'https?://www.youtube.com/watch': 'youtube.js'
 }
 
